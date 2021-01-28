@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+        "cloud_name": "dzefcpg55",
+        "api_key": "778377134175581",
+        "api_secret": "ypFfYvBPQ0KzkKD3vSvMstsQX_M"
+    }
+}
