@@ -30,6 +30,9 @@
     },
     "genre": {
       "model": "genres"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
