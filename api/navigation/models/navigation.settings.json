@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigations",
+  "info": {
+    "name": "Navigation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    }
+  }
+}
