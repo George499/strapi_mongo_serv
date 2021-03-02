@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artists",
+  "info": {
+    "name": "Artists"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "artist_name": {
+      "type": "string"
+    },
+    "albums": {
+      "via": "artists",
+      "collection": "albums"
+    }
+  }
+}
