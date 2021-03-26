@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "artist": {
-      "type": "string"
-    },
     "album_name": {
       "type": "string"
     },
@@ -33,6 +30,11 @@
     },
     "slug": {
       "type": "string"
+    },
+    "artists": {
+      "collection": "artists",
+      "via": "albums",
+      "dominant": true
     }
   }
 }
