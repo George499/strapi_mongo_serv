@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/card-lookbooks",
+      "handler": "card-lookbook.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/card-lookbooks/count",
+      "handler": "card-lookbook.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/card-lookbooks/:id",
+      "handler": "card-lookbook.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/card-lookbooks",
+      "handler": "card-lookbook.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/card-lookbooks/:id",
+      "handler": "card-lookbook.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/card-lookbooks/:id",
+      "handler": "card-lookbook.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
