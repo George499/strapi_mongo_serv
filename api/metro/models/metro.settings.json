@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "usligis",
+  "collectionName": "metros",
   "info": {
-    "name": "Uslugi",
+    "name": "metro",
     "description": ""
   },
   "options": {
@@ -14,12 +14,8 @@
     "name": {
       "type": "string"
     },
-    "tag": {
-      "type": "string"
-    },
-    "card_lookbook": {
-      "via": "uslugis",
-      "model": "card-lookbook"
+    "city": {
+      "model": "city"
     }
   }
 }
