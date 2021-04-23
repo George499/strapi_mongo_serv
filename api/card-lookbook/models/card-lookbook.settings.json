@@ -29,8 +29,7 @@
       "type": "richtext"
     },
     "uslugis": {
-      "collection": "usligi",
-      "via": "card_lookbook"
+      "collection": "usligi"
     },
     "city": {
       "model": "city"
