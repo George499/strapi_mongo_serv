@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uslugi_groups",
+  "info": {
+    "name": "uslugi_groups",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "uslugis": {
+      "collection": "usligi"
+    },
+    "group_name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
