@@ -45,6 +45,12 @@
     },
     "take_orders": {
       "type": "boolean"
+    },
+    "slider_2": {
+      "type": "integer"
+    },
+    "slider_3": {
+      "type": "integer"
     }
   }
 }
