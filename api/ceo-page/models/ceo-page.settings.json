@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ceo_pages",
+  "info": {
+    "name": "CEO page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "url_filter": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
