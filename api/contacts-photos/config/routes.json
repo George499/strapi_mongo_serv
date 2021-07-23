@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contacts-photos",
+      "handler": "contacts-photos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contacts-photos/count",
+      "handler": "contacts-photos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contacts-photos/:id",
+      "handler": "contacts-photos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contacts-photos",
+      "handler": "contacts-photos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contacts-photos/:id",
+      "handler": "contacts-photos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contacts-photos/:id",
+      "handler": "contacts-photos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
