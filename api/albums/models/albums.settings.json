@@ -36,6 +36,12 @@
     },
     "title": {
       "type": "string"
+    },
+    "second_title": {
+      "type": "string"
+    },
+    "third_title": {
+      "type": "string"
     }
   }
 }
