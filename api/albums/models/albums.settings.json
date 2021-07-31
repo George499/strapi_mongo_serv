@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "album_name": {
-      "type": "string"
-    },
     "album_cover": {
       "model": "file",
       "via": "related",
@@ -23,7 +20,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "genre": {
       "model": "genres"
@@ -35,6 +33,9 @@
       "collection": "artists",
       "via": "albums",
       "dominant": true
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
