@@ -23,7 +23,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "opisanie": {
       "type": "richtext"
@@ -46,10 +47,10 @@
     "take_orders": {
       "type": "boolean"
     },
-    "slider_2": {
+    "dick_size": {
       "type": "integer"
     },
-    "slider_3": {
+    "breast_size": {
       "type": "integer"
     }
   }
