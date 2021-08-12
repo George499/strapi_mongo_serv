@@ -19,6 +19,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "Sort": {
+      "type": "integer"
     }
   }
 }
