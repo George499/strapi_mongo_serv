@@ -52,6 +52,9 @@
     },
     "breast_size": {
       "type": "integer"
+    },
+    "height": {
+      "type": "integer"
     }
   }
 }
