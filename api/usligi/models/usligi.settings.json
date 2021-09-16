@@ -16,6 +16,9 @@
     },
     "tag": {
       "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
