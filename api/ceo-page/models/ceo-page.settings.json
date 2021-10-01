@@ -20,6 +20,9 @@
     "url_filter": {
       "type": "string",
       "unique": true
+    },
+    "tag": {
+      "type": "string"
     }
   }
 }
