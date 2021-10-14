@@ -58,6 +58,18 @@
     },
     "phone": {
       "type": "string"
+    },
+    "hair": {
+      "type": "enumeration",
+      "enum": [
+        "blonde",
+        "brunette",
+        "brown",
+        "red"
+      ]
+    },
+    "dick_round": {
+      "type": "integer"
     }
   }
 }
