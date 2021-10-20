@@ -23,6 +23,9 @@
     },
     "tag": {
       "type": "string"
+    },
+    "h1": {
+      "type": "string"
     }
   }
 }
