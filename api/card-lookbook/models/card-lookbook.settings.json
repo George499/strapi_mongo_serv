@@ -41,7 +41,7 @@
     "age": {
       "type": "integer"
     },
-    "price_1_hour": {
+    "price": {
       "type": "integer"
     },
     "take_orders": {
