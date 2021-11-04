@@ -41,8 +41,8 @@
     "age": {
       "type": "integer"
     },
-    "price": {
-      "type": "biginteger"
+    "price_1_hour": {
+      "type": "integer"
     },
     "take_orders": {
       "type": "boolean"
@@ -69,6 +69,12 @@
       ]
     },
     "dick_round": {
+      "type": "integer"
+    },
+    "price_2_hour": {
+      "type": "integer"
+    },
+    "price_night": {
       "type": "integer"
     }
   }
