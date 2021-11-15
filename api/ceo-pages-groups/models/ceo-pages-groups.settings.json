@@ -16,6 +16,9 @@
     },
     "Sort": {
       "type": "integer"
+    },
+    "ceo_pages": {
+      "collection": "ceo-page"
     }
   }
 }
