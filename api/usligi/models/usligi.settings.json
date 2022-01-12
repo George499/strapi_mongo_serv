@@ -27,7 +27,7 @@
       "type": "string"
     },
     "text_under_title": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }
