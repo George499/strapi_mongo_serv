@@ -25,6 +25,9 @@
     },
     "h1": {
       "type": "string"
+    },
+    "text_under_title": {
+      "type": "text"
     }
   }
 }
