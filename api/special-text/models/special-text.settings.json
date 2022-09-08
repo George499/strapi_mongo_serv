@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "special_texts",
+  "info": {
+    "name": "Special Text"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "page": {
+      "type": "string"
+    }
+  }
+}
