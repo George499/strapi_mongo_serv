@@ -76,6 +76,9 @@
     },
     "price_night": {
       "type": "integer"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
