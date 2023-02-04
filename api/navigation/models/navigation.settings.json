@@ -16,6 +16,9 @@
     },
     "Slug": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
